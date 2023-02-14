@@ -1,0 +1,153 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100vh;
+    width: 100%;
+    background-color: #fff;
+    overflow: hidden;
+}
+#nav{
+    display: flex;
+    height: 5vw;
+    width: 100%;
+}
+#tags{
+    gap: 40px;
+    display: flex;
+    align-items: center;
+   justify-content: flex-end;
+    height: 100%;
+    width: 50%;
+
+}
+#buttons{
+   margin-left: 50px;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  
+}
+#links a{
+    font-weight: 600;
+    font-size: 17px;
+    text-decoration: none;
+    padding-left: 10px;
+    color: #535353cd;
+
+}
+#buttons button{
+    padding: 12px 36px;
+    border-radius: 20px;
+    font-size: 15px;
+    letter-spacing: .2px;
+    font-weight: 600;
+}
+#white{
+    background-color: #ffffff;
+    border: 1px solid #535353cd;
+    font-weight: 600;
+  
+}
+#yellow{
+    background-color: #FE7729;
+    border: none;
+    color: white;
+}
+#centre{
+    display: flex;
+    height: 70%;
+  
+}
+#right{
+    padding: 120px 150px;
+    height: 100%;
+    width: 50%;
+    background-color: #fff;
+}
+#left{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+#right h1{
+    padding-bottom: 20px;
+    font-size: 50px;
+}
+#right p{
+    padding-bottom: 20px;
+    width: 160%;
+    font-size: 17px;
+    font-weight: 600;
+    color: #535353cd;
+    line-height: 20px;
+    letter-spacing: 1px;
+}
+#right button{
+   font-weight: 600;
+    padding: 12px 36px;
+    border-radius: 20px;
+    font-size: 15px;
+    letter-spacing: .2px;
+    border: 1px solid #535353cd;
+}
+#orange{
+    color: #ffffff;
+    background-color: #FE7729;
+    border: none;
+    margin-right: 15px;
+}
+#right span{
+    color: #FE7729;
+}
+#elem{
+    object-fit: cover;
+    width: 60%;
+    height: 90%;
+    background-color: #FE7729;
+    display: flex;
+    align-items: center;
+    position: relative;
+
+}
+#elem img{
+    border-radius: 20px;
+    position: absolute;
+    left: -30%;
+    height: 80%;
+}
+#footer{
+    height: 19%;
+    width: 100%;
+}
+#text{
+    padding-top:40px ;
+    height: 20%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+#images{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+#images img{
+    height: 30px;
+}
